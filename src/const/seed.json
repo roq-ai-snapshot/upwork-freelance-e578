@@ -1,0 +1,2522 @@
+[
+  {
+    "support_ticket": [
+      {
+        "id": "0aba1077-d030-4dc1-b4d2-25334bde9991",
+        "subject": "Technical Issue",
+        "description": "Experiencing difficulties with website loading speed.",
+        "status": "Open",
+        "created_at": "2023-09-19T22:00:45.545Z",
+        "updated_at": "2023-09-19T12:59:30.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb5a5efa-12b3-4076-860f-5fd6b7679c9e",
+        "subject": "Payment Inquiry",
+        "description": "Need assistance with refund process.",
+        "status": "In Progress",
+        "created_at": "2023-09-19T23:26:27.109Z",
+        "updated_at": "2023-09-19T21:29:32.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57ef707f-c57b-4f9c-bf2a-5dd68291c5c5",
+        "subject": "Product Feedback",
+        "description": "Suggestion to improve user interface.",
+        "status": "On Hold",
+        "created_at": "2023-09-20T09:02:56.355Z",
+        "updated_at": "2023-09-20T04:38:06.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e4e5c4e-2f6e-4d56-9f4c-3570f4b13173",
+        "subject": "Account Access Problem",
+        "description": "Unable to login to my account.",
+        "status": "Resolved",
+        "created_at": "2023-09-19T17:28:18.688Z",
+        "updated_at": "2023-09-19T23:01:17.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df72d086-3fb4-4184-bbba-d4f270a43a82",
+        "subject": "Bug Report",
+        "description": "Found a bug in the search feature.",
+        "status": "Closed",
+        "created_at": "2023-09-19T11:50:25.728Z",
+        "updated_at": "2023-09-20T03:30:59.984Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "1b4e6dec-0fee-486e-9965-4306cdd5242b",
+        "name": "Website Redesign",
+        "description": "Revamp the existing website design to enhance user experience.",
+        "start_date": "2023-09-20T02:44:20.299Z",
+        "end_date": "2023-09-20T04:56:02.188Z",
+        "status": "Planning",
+        "created_at": "2023-09-19T10:04:18.978Z",
+        "updated_at": "2023-09-20T05:34:48.240Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "4308849b-964c-429f-81e5-95bdaec00d08",
+        "name": "Mobile App Development",
+        "description": "Build a mobile app for iOS and Android platforms.",
+        "start_date": "2023-09-20T05:52:05.137Z",
+        "end_date": "2023-09-20T04:48:26.157Z",
+        "status": "In Progress",
+        "created_at": "2023-09-19T23:11:21.537Z",
+        "updated_at": "2023-09-20T07:44:59.278Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "6001c715-1717-4243-a0c2-f481cf30d776",
+        "name": "Marketing Campaign",
+        "description": "Plan and execute a digital marketing campaign.",
+        "start_date": "2023-09-19T19:37:59.746Z",
+        "end_date": "2023-09-19T18:20:53.088Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T11:05:28.279Z",
+        "updated_at": "2023-09-19T12:36:22.845Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "aa79d78a-12a9-4f92-b922-6a5f4b2a9b22",
+        "name": "Product Launch",
+        "description": "Prepare for the launch of a new product.",
+        "start_date": "2023-09-19T18:21:00.592Z",
+        "end_date": "2023-09-19T21:46:32.708Z",
+        "status": "Delayed",
+        "created_at": "2023-09-19T19:54:12.698Z",
+        "updated_at": "2023-09-20T03:02:50.775Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "f4ffbd65-cce0-4009-9562-aefa0641745d",
+        "name": "E-commerce Integration",
+        "description": "Integrate an e-commerce platform into the website.",
+        "start_date": "2023-09-20T00:17:14.308Z",
+        "end_date": "2023-09-20T08:14:19.176Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T12:36:13.216Z",
+        "updated_at": "2023-09-20T08:11:12.413Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "a5297a15-ab45-4745-883e-035a6bdf8379",
+        "name": "Digital Marketing Agency",
+        "description": "Helping businesses grow through effective digital marketing strategies.",
+        "created_at": "2023-09-20T04:00:43.733Z",
+        "updated_at": "2023-09-19T09:53:08.651Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "51b0ad8a-e3b6-4cea-a17c-4f82fcd38422",
+        "name": "Web Design Studio",
+        "description": "Creating stunning websites that captivate users.",
+        "created_at": "2023-09-20T05:17:39.647Z",
+        "updated_at": "2023-09-19T09:38:04.689Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "acce236f-cf29-4b22-9120-d07b20b657d2",
+        "name": "Advertising Agency",
+        "description": "Developing creative advertising campaigns that drive results.",
+        "created_at": "2023-09-20T00:10:11.695Z",
+        "updated_at": "2023-09-20T07:18:12.067Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e2973e4b-a930-4df3-87ae-11537d13c4df",
+        "name": "PR & Communications Firm",
+        "description": "Crafting compelling PR messages and managing media relations.",
+        "created_at": "2023-09-20T03:21:07.544Z",
+        "updated_at": "2023-09-20T06:10:42.603Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "18d372a9-be98-42e5-a663-a00f011f6465",
+        "name": "Event Management Company",
+        "description": "Planning and executing successful corporate events.",
+        "created_at": "2023-09-20T01:12:30.564Z",
+        "updated_at": "2023-09-20T02:33:47.046Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "eb79a055-844b-4482-ad01-110fb7d45632",
+        "joined_at": "2023-09-19T14:12:45.950Z",
+        "role": "Marketing Specialist",
+        "status": "Active",
+        "created_at": "2023-09-19T20:02:06.221Z",
+        "updated_at": "2023-09-20T03:56:41.869Z",
+        "agency_id": "e2973e4b-a930-4df3-87ae-11537d13c4df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a3271fc-84b6-47d3-90e8-9e968f75332b",
+        "joined_at": "2023-09-20T04:04:50.280Z",
+        "role": "Web Developer",
+        "status": "On Leave",
+        "created_at": "2023-09-20T02:56:25.000Z",
+        "updated_at": "2023-09-20T05:09:28.048Z",
+        "agency_id": "e2973e4b-a930-4df3-87ae-11537d13c4df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64de3264-c084-4413-8dd9-11d67f337d87",
+        "joined_at": "2023-09-19T23:11:39.380Z",
+        "role": "Graphic Designer",
+        "status": "Pending Approval",
+        "created_at": "2023-09-20T07:08:39.413Z",
+        "updated_at": "2023-09-19T16:38:41.286Z",
+        "agency_id": "e2973e4b-a930-4df3-87ae-11537d13c4df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7294aa9f-6adc-40c0-a874-d95bd2cc40e0",
+        "joined_at": "2023-09-20T01:14:10.777Z",
+        "role": "Public Relations Manager",
+        "status": "Resigned",
+        "created_at": "2023-09-19T15:32:41.046Z",
+        "updated_at": "2023-09-19T10:32:24.194Z",
+        "agency_id": "e2973e4b-a930-4df3-87ae-11537d13c4df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a99580e-75a1-45bc-8731-c6b1ed5445ee",
+        "joined_at": "2023-09-20T09:01:28.740Z",
+        "role": "Event Coordinator",
+        "status": "Suspended",
+        "created_at": "2023-09-20T03:53:42.075Z",
+        "updated_at": "2023-09-20T04:47:49.109Z",
+        "agency_id": "a5297a15-ab45-4745-883e-035a6bdf8379",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4ee742cb-3cb0-4d83-a643-07236c40e494",
+        "email": "Rosalinda.OKon@hotmail.com",
+        "firstName": "Assunta",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49283702",
+        "tenantId": null
+      },
+      {
+        "reference": "2570ec84-40b4-4c07-8b41-eeb3938cd1a7",
+        "email": "Abby.Crona36@hotmail.com",
+        "firstName": "Marcos",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61745243",
+        "tenantId": null
+      },
+      {
+        "reference": "0b04ceb7-3336-40be-ab72-25af0bca3a77",
+        "email": "Waldo.Price@gmail.com",
+        "firstName": "Jany",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40845757",
+        "tenantId": null
+      },
+      {
+        "reference": "1f52605f-af5b-42d7-9b47-408ad9727540",
+        "email": "Breanna.Schulist@hotmail.com",
+        "firstName": "Dayana",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22209270",
+        "tenantId": null
+      },
+      {
+        "reference": "6f45d817-2e3a-431c-ad6e-0df5362f3af5",
+        "email": "Junior_Roberts@yahoo.com",
+        "firstName": "Fredy",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/710.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "5309ddb1-479d-44a0-b077-e3e35390e93f",
+        "subject": "Issue with login",
+        "description": "I am unable to login to my account",
+        "status": "Open",
+        "created_at": "2023-09-19T14:37:41.067Z",
+        "updated_at": "2023-09-20T07:14:19.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16de76a6-afd5-496f-9122-ddb5d252df41",
+        "subject": "Error in payment process",
+        "description": "I encountered an error while making a payment",
+        "status": "In Progress",
+        "created_at": "2023-09-20T02:32:39.318Z",
+        "updated_at": "2023-09-20T04:25:43.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d5788a1-9c9c-4739-9ddf-2d5f6fb37d1c",
+        "subject": "Request for product refund",
+        "description": "I would like to request a refund for a product",
+        "status": "Pending",
+        "created_at": "2023-09-20T03:46:00.296Z",
+        "updated_at": "2023-09-20T06:46:48.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "410a6ef2-1991-467e-9a0d-f9fce1705150",
+        "subject": "Bug in website navigation",
+        "description": "There seems to be a bug in the website navigation",
+        "status": "Resolved",
+        "created_at": "2023-09-20T06:22:42.988Z",
+        "updated_at": "2023-09-20T09:34:27.564Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "987c75b0-9333-415a-a094-d63b4001d988",
+        "subject": "Problem with account activation",
+        "description": "I am unable to activate my account",
+        "status": "Closed",
+        "created_at": "2023-09-20T07:39:19.768Z",
+        "updated_at": "2023-09-20T06:22:10.905Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "ac72f968-0e82-4640-becf-4ac7f0543fba",
+        "name": "Project A",
+        "description": "This is the description for Project A",
+        "start_date": "2023-09-19T12:20:15.511Z",
+        "end_date": "2023-09-19T17:15:06.197Z",
+        "status": "Active",
+        "created_at": "2023-09-19T10:18:50.137Z",
+        "updated_at": "2023-09-20T03:21:41.827Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "4e5afc7f-19e5-48ea-a667-e3abb0455577",
+        "name": "Project B",
+        "description": "This is the description for Project B",
+        "start_date": "2023-09-19T15:26:41.746Z",
+        "end_date": "2023-09-19T23:23:45.772Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T21:42:49.447Z",
+        "updated_at": "2023-09-19T10:57:01.078Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "697c2aee-7efd-440a-aef0-30e77a96d1a4",
+        "name": "Project C",
+        "description": "This is the description for Project C",
+        "start_date": "2023-09-20T03:30:07.886Z",
+        "end_date": "2023-09-19T14:40:18.303Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T10:05:36.533Z",
+        "updated_at": "2023-09-20T00:49:51.225Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "16b028d1-4bce-4731-813f-9cb9340fc0df",
+        "name": "Project D",
+        "description": "This is the description for Project D",
+        "start_date": "2023-09-19T19:05:54.813Z",
+        "end_date": "2023-09-19T16:21:22.123Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T15:51:42.826Z",
+        "updated_at": "2023-09-19T10:53:17.935Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "2dbea7b5-1fc0-4485-91c7-8fe5be3f0535",
+        "name": "Project E",
+        "description": "This is the description for Project E",
+        "start_date": "2023-09-19T20:22:23.019Z",
+        "end_date": "2023-09-20T04:57:32.591Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T04:17:47.086Z",
+        "updated_at": "2023-09-19T18:43:05.291Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "d6fa0020-adb8-4feb-8ae2-49a568e4f85e",
+        "name": "Agency A",
+        "description": "This is a description for Agency A",
+        "created_at": "2023-09-20T06:33:56.873Z",
+        "updated_at": "2023-09-20T00:34:50.352Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9a4c73d9-503b-4cdf-9fe0-812dd44005b7",
+        "name": "Agency B",
+        "description": "This is a description for Agency B",
+        "created_at": "2023-09-19T23:42:57.745Z",
+        "updated_at": "2023-09-19T23:55:25.691Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d9e3b50e-f81e-4550-a885-97bf30b375db",
+        "name": "Agency C",
+        "description": "This is a description for Agency C",
+        "created_at": "2023-09-19T19:51:46.538Z",
+        "updated_at": "2023-09-19T11:22:26.511Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "21fb9c42-73b3-4ba4-8a90-3f1ee22e0d22",
+        "name": "Agency D",
+        "description": "This is a description for Agency D",
+        "created_at": "2023-09-19T15:13:17.764Z",
+        "updated_at": "2023-09-19T17:07:20.418Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "018b618b-6208-4502-a18d-3ab4d7981ebf",
+        "name": "Agency E",
+        "description": "This is a description for Agency E",
+        "created_at": "2023-09-20T02:46:06.500Z",
+        "updated_at": "2023-09-20T08:22:37.178Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "343e2ffe-24b0-45bf-b195-1cc0517d035b",
+        "joined_at": "2023-09-20T07:14:04.272Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T04:24:36.904Z",
+        "updated_at": "2023-09-19T13:31:17.683Z",
+        "agency_id": "018b618b-6208-4502-a18d-3ab4d7981ebf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "479c48de-9327-4f23-9f2d-3d86e64b4f32",
+        "joined_at": "2023-09-19T13:42:34.601Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-20T01:48:41.405Z",
+        "updated_at": "2023-09-20T01:51:03.092Z",
+        "agency_id": "018b618b-6208-4502-a18d-3ab4d7981ebf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1e1ef06-9808-4b7f-9069-c15649425aaf",
+        "joined_at": "2023-09-19T12:29:19.906Z",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-09-19T13:49:30.101Z",
+        "updated_at": "2023-09-19T13:50:45.748Z",
+        "agency_id": "21fb9c42-73b3-4ba4-8a90-3f1ee22e0d22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "470c55bf-c3ec-401a-b6e6-cca7151bb898",
+        "joined_at": "2023-09-20T02:58:42.089Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-19T19:19:31.965Z",
+        "updated_at": "2023-09-20T04:13:51.189Z",
+        "agency_id": "d9e3b50e-f81e-4550-a885-97bf30b375db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "409cf9a8-278a-4cad-8c95-c0f63674dcff",
+        "joined_at": "2023-09-20T06:04:36.814Z",
+        "role": "Tester",
+        "status": "Blocked",
+        "created_at": "2023-09-20T02:37:18.929Z",
+        "updated_at": "2023-09-19T21:23:00.557Z",
+        "agency_id": "018b618b-6208-4502-a18d-3ab4d7981ebf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c1f16670-7eda-448b-aa42-acd0aacaa43c",
+        "email": "Aniyah.Schiller@gmail.com",
+        "firstName": "David",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28258109",
+        "tenantId": null
+      },
+      {
+        "reference": "2dbc47d3-2bcd-4646-8734-6109eb310b92",
+        "email": "Kiana43@gmail.com",
+        "firstName": "David",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/243.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "073d419f-7bfa-4743-9c29-a93c30d3a0e9",
+        "email": "Dale.Rippin36@gmail.com",
+        "firstName": "Russell",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71671112",
+        "tenantId": null
+      },
+      {
+        "reference": "449639ef-f447-443c-9ce7-8c52357b1ff0",
+        "email": "Audreanne88@hotmail.com",
+        "firstName": "Curt",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9502252",
+        "tenantId": null
+      },
+      {
+        "reference": "80cdca6a-4421-4bc0-b1d1-ad55060f4c4b",
+        "email": "Ted99@gmail.com",
+        "firstName": "Gabe",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1132.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "23958413-bbfb-4e41-91a1-7867878b0248",
+        "subject": "Payment Issue",
+        "description": "I am unable to make a payment. Please assist.",
+        "status": "Open",
+        "created_at": "2023-09-19T13:43:56.367Z",
+        "updated_at": "2023-09-19T20:47:27.929Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9768fb9d-9fe1-46ab-a1cf-a41f9a7de637",
+        "subject": "Bug Report",
+        "description": "I found a bug in the system. Here are the details...",
+        "status": "In Progress",
+        "created_at": "2023-09-19T23:52:24.595Z",
+        "updated_at": "2023-09-19T14:30:05.030Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "197aa1b2-e7a2-4b05-b489-c55de51a77f3",
+        "subject": "Feature Request",
+        "description": "I have a suggestion for a new feature.",
+        "status": "Resolved",
+        "created_at": "2023-09-19T11:24:57.635Z",
+        "updated_at": "2023-09-19T21:39:38.248Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "443297ac-3dc6-458a-b9a2-6a34d8832069",
+        "subject": "Account Access Problem",
+        "description": "I cannot access my account. Help!",
+        "status": "On Hold",
+        "created_at": "2023-09-19T10:49:37.804Z",
+        "updated_at": "2023-09-19T23:24:37.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "933d1d54-d99c-456b-b7be-ed2f6713b5a2",
+        "subject": "Website Error",
+        "description": "I encountered an error while using the website.",
+        "status": "Closed",
+        "created_at": "2023-09-19T11:06:13.649Z",
+        "updated_at": "2023-09-20T04:10:35.443Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "fc1c7cac-c937-40c5-a5c4-fdca2a1298c5",
+        "name": "Project A",
+        "description": "This project aims to...",
+        "start_date": "2023-09-20T02:34:06.589Z",
+        "end_date": "2023-09-19T21:28:53.158Z",
+        "status": "Planning",
+        "created_at": "2023-09-19T22:03:18.447Z",
+        "updated_at": "2023-09-19T18:15:22.111Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "b3916aed-b26c-44a0-88b8-a017deb85714",
+        "name": "Project B",
+        "description": "The main goal of this project is...",
+        "start_date": "2023-09-19T21:08:58.520Z",
+        "end_date": "2023-09-19T15:37:52.372Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T08:44:54.556Z",
+        "updated_at": "2023-09-20T08:50:00.302Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "f3b1c8c4-5dc4-46c0-a04d-5a62d30a2753",
+        "name": "Project C",
+        "description": "Project description goes here...",
+        "start_date": "2023-09-20T06:00:49.440Z",
+        "end_date": "2023-09-19T17:21:19.575Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T00:01:06.696Z",
+        "updated_at": "2023-09-19T15:13:16.378Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "3a6d427f-7580-45a9-88a0-7d103280083a",
+        "name": "Project D",
+        "description": "In this project, we will...",
+        "start_date": "2023-09-20T02:23:24.172Z",
+        "end_date": "2023-09-20T09:32:16.792Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T01:48:50.181Z",
+        "updated_at": "2023-09-19T12:26:58.514Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "a3b6cc9d-a735-457c-b09a-a0f9509c4853",
+        "name": "Project E",
+        "description": "Project overview: ...",
+        "start_date": "2023-09-19T23:14:48.455Z",
+        "end_date": "2023-09-20T04:14:19.946Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T17:02:10.989Z",
+        "updated_at": "2023-09-19T16:03:56.642Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "81b63717-0b0c-4df9-800b-2e5d522845a0",
+        "name": "Agency A",
+        "description": "We provide top-notch services in...",
+        "created_at": "2023-09-19T17:42:21.076Z",
+        "updated_at": "2023-09-20T01:49:05.446Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "108eb182-7dbc-43e8-bed8-c79f1993163f",
+        "name": "Agency B",
+        "description": "Our agency is known for...",
+        "created_at": "2023-09-20T09:32:16.502Z",
+        "updated_at": "2023-09-19T19:16:53.330Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a8547bcd-d97a-4681-96c3-f5de35adc767",
+        "name": "Agency C",
+        "description": "With a team of experts, we deliver...",
+        "created_at": "2023-09-19T10:35:42.392Z",
+        "updated_at": "2023-09-19T14:48:03.325Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "50bb3f0c-2d6a-4afa-8e02-135bfe80591d",
+        "name": "Agency D",
+        "description": "We have a proven track record in...",
+        "created_at": "2023-09-20T07:37:23.512Z",
+        "updated_at": "2023-09-20T03:30:07.208Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "359f0248-2a48-4d9e-a82b-ef6a1ed50986",
+        "name": "Agency E",
+        "description": "Client satisfaction is our priority.",
+        "created_at": "2023-09-19T21:42:12.195Z",
+        "updated_at": "2023-09-19T19:47:20.059Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "f0e90643-3548-41ef-9e7e-4af88bf4c383",
+        "joined_at": "2023-09-20T05:07:22.164Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T00:36:19.579Z",
+        "updated_at": "2023-09-19T19:26:45.699Z",
+        "agency_id": "50bb3f0c-2d6a-4afa-8e02-135bfe80591d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1503e5e-e304-4b99-afe1-f0bc46e14b32",
+        "joined_at": "2023-09-19T13:40:46.030Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-19T20:50:36.851Z",
+        "updated_at": "2023-09-20T04:03:56.032Z",
+        "agency_id": "108eb182-7dbc-43e8-bed8-c79f1993163f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4be0a1d1-a3f8-4840-8968-78c4cbd90bf0",
+        "joined_at": "2023-09-20T06:15:32.787Z",
+        "role": "Designer",
+        "status": "On Leave",
+        "created_at": "2023-09-20T02:14:02.966Z",
+        "updated_at": "2023-09-20T04:00:30.883Z",
+        "agency_id": "a8547bcd-d97a-4681-96c3-f5de35adc767",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b507fe0-6344-4072-8d17-425fde221154",
+        "joined_at": "2023-09-19T14:13:31.598Z",
+        "role": "Marketing Specialist",
+        "status": "Pending Approval",
+        "created_at": "2023-09-19T21:39:20.045Z",
+        "updated_at": "2023-09-20T04:27:26.385Z",
+        "agency_id": "108eb182-7dbc-43e8-bed8-c79f1993163f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91883860-dafc-4a30-98f5-a7112d9e6b0f",
+        "joined_at": "2023-09-20T05:53:20.770Z",
+        "role": "Account Executive",
+        "status": "Suspended",
+        "created_at": "2023-09-20T08:59:53.206Z",
+        "updated_at": "2023-09-20T04:23:31.200Z",
+        "agency_id": "81b63717-0b0c-4df9-800b-2e5d522845a0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2467718c-6281-4acc-b81a-e85d8ed6c0f1",
+        "email": "Lolita.Tremblay34@gmail.com",
+        "firstName": "Immanuel",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/735.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d33e30f8-765e-457c-82c7-45225e3ac097",
+        "email": "Ebba.Grady@hotmail.com",
+        "firstName": "Jedediah",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/460.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4447d22-26db-42d0-9a44-7e4ae54c883e",
+        "email": "Mariano_Pfannerstill64@hotmail.com",
+        "firstName": "Ciara",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/694.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c575fb8-3c34-4450-930f-fe3181d65bb4",
+        "email": "Keegan_Klein98@hotmail.com",
+        "firstName": "Tyson",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68379730",
+        "tenantId": null
+      },
+      {
+        "reference": "2b221433-5ce9-4e6f-82a2-df3938947965",
+        "email": "Adelbert_Hudson@gmail.com",
+        "firstName": "Lessie",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/716.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "328b1306-bd1e-41e1-a232-488a82daee56",
+        "subject": "Technical Issue",
+        "description": "Experiencing difficulties with the app",
+        "status": "Open",
+        "created_at": "2023-09-19T17:41:31.864Z",
+        "updated_at": "2023-09-20T00:21:50.286Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf10c30b-3583-4590-aa50-715dd7fc886e",
+        "subject": "Payment Inquiry",
+        "description": "Need assistance with payment",
+        "status": "In Progress",
+        "created_at": "2023-09-19T21:15:07.959Z",
+        "updated_at": "2023-09-19T19:13:24.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c041b996-1d2d-477f-9c7e-841334630720",
+        "subject": "Account Access Problem",
+        "description": "Unable to login to my account",
+        "status": "Resolved",
+        "created_at": "2023-09-20T03:39:04.568Z",
+        "updated_at": "2023-09-20T01:46:52.387Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d2b8204-9b4b-4675-a48e-e3b029af4e2d",
+        "subject": "Product Feedback",
+        "description": "Suggestion for product improvement",
+        "status": "On Hold",
+        "created_at": "2023-09-19T22:25:25.729Z",
+        "updated_at": "2023-09-19T13:55:21.410Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c80126a6-2f6b-46a4-8bad-ccbf3fad3b27",
+        "subject": "Service Request",
+        "description": "Requesting a service",
+        "status": "Closed",
+        "created_at": "2023-09-19T19:47:30.931Z",
+        "updated_at": "2023-09-20T07:24:39.094Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "030fadf6-08c2-45ed-9c8a-36e17acb6b41",
+        "name": "Project A",
+        "description": "A new website development project",
+        "start_date": "2023-09-19T13:55:25.519Z",
+        "end_date": "2023-09-20T02:40:00.250Z",
+        "status": "Planning",
+        "created_at": "2023-09-19T22:19:38.957Z",
+        "updated_at": "2023-09-19T12:32:27.050Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "f5456e60-fa6f-432a-b734-24a01adf956f",
+        "name": "Project B",
+        "description": "Mobile app development for iOS and Android",
+        "start_date": "2023-09-20T07:32:22.594Z",
+        "end_date": "2023-09-20T03:24:36.483Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T04:52:42.147Z",
+        "updated_at": "2023-09-19T12:43:38.052Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "543d071e-c0ee-4e69-8593-ffad691d376c",
+        "name": "Project C",
+        "description": "Software integration project",
+        "start_date": "2023-09-19T14:34:11.714Z",
+        "end_date": "2023-09-20T04:10:45.569Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T18:08:10.422Z",
+        "updated_at": "2023-09-20T01:22:05.622Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "16fa264f-c8ba-47c3-8b0f-a04b15051f7e",
+        "name": "Project D",
+        "description": "Data analysis and reporting project",
+        "start_date": "2023-09-19T17:26:57.597Z",
+        "end_date": "2023-09-19T15:21:07.745Z",
+        "status": "Delayed",
+        "created_at": "2023-09-19T11:23:51.211Z",
+        "updated_at": "2023-09-19T16:24:43.541Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "1ffc4125-ecbc-492b-9697-d125a94545e6",
+        "name": "Project E",
+        "description": "Infrastructure upgrade project",
+        "start_date": "2023-09-19T16:59:48.128Z",
+        "end_date": "2023-09-19T20:46:23.857Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T11:13:10.818Z",
+        "updated_at": "2023-09-19T22:18:09.255Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "ca43c3c5-d33c-4d20-b163-db8ad140fc09",
+        "name": "Marketing Solutions",
+        "description": "Full-service marketing agency",
+        "created_at": "2023-09-20T00:18:11.929Z",
+        "updated_at": "2023-09-20T03:48:29.719Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f47c3909-d5fd-4a92-a03b-8285e2c399ce",
+        "name": "Creative Minds",
+        "description": "Design and branding specialists",
+        "created_at": "2023-09-19T13:54:22.200Z",
+        "updated_at": "2023-09-19T12:00:08.101Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a044200e-7cce-4c84-b4b0-3647af9d8b8f",
+        "name": "Digital Agency",
+        "description": "Digital marketing and advertising agency",
+        "created_at": "2023-09-20T05:46:22.842Z",
+        "updated_at": "2023-09-19T22:06:26.500Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "bc88646a-9a89-4770-9813-e71ebefad29e",
+        "name": "Brand Experts",
+        "description": "Strategic brand consultancy",
+        "created_at": "2023-09-20T06:01:19.983Z",
+        "updated_at": "2023-09-19T16:56:33.590Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f7e04fce-de15-41e7-bc98-46f5a81ec807",
+        "name": "Media Innovators",
+        "description": "Cutting-edge media production",
+        "created_at": "2023-09-19T11:06:05.222Z",
+        "updated_at": "2023-09-20T08:25:11.969Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "f15445fa-a05d-496d-97f5-e825824068c7",
+        "joined_at": "2023-09-19T16:49:14.596Z",
+        "role": "Account Manager",
+        "status": "Active",
+        "created_at": "2023-09-19T20:07:38.209Z",
+        "updated_at": "2023-09-19T13:12:02.088Z",
+        "agency_id": "bc88646a-9a89-4770-9813-e71ebefad29e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75e53d2a-ce87-40f9-87f0-c4bb66e3aef5",
+        "joined_at": "2023-09-20T03:15:36.211Z",
+        "role": "Creative Director",
+        "status": "On Leave",
+        "created_at": "2023-09-19T22:08:25.874Z",
+        "updated_at": "2023-09-19T17:25:58.585Z",
+        "agency_id": "bc88646a-9a89-4770-9813-e71ebefad29e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfa0f848-c0f5-43ba-abcf-7d2f2239012a",
+        "joined_at": "2023-09-20T03:38:33.198Z",
+        "role": "Digital Strategist",
+        "status": "Pending Approval",
+        "created_at": "2023-09-19T20:11:56.292Z",
+        "updated_at": "2023-09-19T20:43:22.154Z",
+        "agency_id": "ca43c3c5-d33c-4d20-b163-db8ad140fc09",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f09f13c8-bbc9-4725-9d5d-9bc9bece9e26",
+        "joined_at": "2023-09-19T21:34:21.586Z",
+        "role": "Graphic Designer",
+        "status": "Inactive",
+        "created_at": "2023-09-19T10:01:12.744Z",
+        "updated_at": "2023-09-19T10:57:02.889Z",
+        "agency_id": "f47c3909-d5fd-4a92-a03b-8285e2c399ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0958b71f-4c61-4c42-85dd-c2c66e7cc995",
+        "joined_at": "2023-09-19T12:41:57.760Z",
+        "role": "Social Media Specialist",
+        "status": "Terminated",
+        "created_at": "2023-09-19T10:14:46.128Z",
+        "updated_at": "2023-09-19T15:50:12.900Z",
+        "agency_id": "f47c3909-d5fd-4a92-a03b-8285e2c399ce",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9cfcbbec-5717-4fab-a0d3-00d8ca01793f",
+        "email": "Alexandrine_Zulauf-Feeney6@hotmail.com",
+        "firstName": "Emma",
+        "lastName": "Baumbach-Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92438393",
+        "tenantId": null
+      },
+      {
+        "reference": "317a6fd3-d22b-4295-91d4-aa3be6c13215",
+        "email": "Kasandra.Kemmer@hotmail.com",
+        "firstName": "Vivian",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45205628",
+        "tenantId": null
+      },
+      {
+        "reference": "af4a7743-263d-4a4d-923c-994be50bff2f",
+        "email": "Dave27@yahoo.com",
+        "firstName": "Ansley",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/888.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e8fd0a8c-7244-4811-a7e6-c54e4af6879c",
+        "email": "Katelyn.Mertz77@yahoo.com",
+        "firstName": "Priscilla",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28683714",
+        "tenantId": null
+      },
+      {
+        "reference": "8dc0d0ab-5257-4c92-b676-dcf7ef9f8bc9",
+        "email": "Russ_Stroman42@hotmail.com",
+        "firstName": "Jacques",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1168.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "4f5e4f13-bb72-4519-8bd0-62e6d0f04c9d",
+        "subject": "Payment Issue",
+        "description": "I am facing an issue with my payment",
+        "status": "Open",
+        "created_at": "2023-09-19T10:12:23.664Z",
+        "updated_at": "2023-09-19T14:59:38.702Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fe5b1b3-00d1-4a81-968f-ff1c2cdced57",
+        "subject": "Bug Report",
+        "description": "I found a bug in the system",
+        "status": "In Progress",
+        "created_at": "2023-09-19T18:22:44.387Z",
+        "updated_at": "2023-09-20T04:51:24.555Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a112433-da50-454d-86b7-794d070f7b70",
+        "subject": "Feature Request",
+        "description": "I have a suggestion for a new feature",
+        "status": "Resolved",
+        "created_at": "2023-09-19T13:50:11.921Z",
+        "updated_at": "2023-09-20T01:16:42.510Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0562544-179f-4269-b25f-ab12f337c633",
+        "subject": "Account Access Problem",
+        "description": "I cannot access my account",
+        "status": "On Hold",
+        "created_at": "2023-09-19T19:30:13.335Z",
+        "updated_at": "2023-09-20T01:15:34.675Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "383de7b1-69c2-4008-91eb-2b454e5c5c0d",
+        "subject": "Website Error",
+        "description": "I encountered an error on the website",
+        "status": "Closed",
+        "created_at": "2023-09-19T10:25:21.687Z",
+        "updated_at": "2023-09-20T01:43:13.289Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "417dc54a-907a-44fc-8c7a-174263e837e5",
+        "name": "Project A",
+        "description": "This is the description for Project A",
+        "start_date": "2023-09-20T07:57:52.513Z",
+        "end_date": "2023-09-19T17:25:50.885Z",
+        "status": "Active",
+        "created_at": "2023-09-20T05:50:16.183Z",
+        "updated_at": "2023-09-20T00:04:40.057Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "9d689c05-5dbd-4b6c-b6a2-da144ac21e3b",
+        "name": "Project B",
+        "description": "This is the description for Project B",
+        "start_date": "2023-09-19T10:17:55.288Z",
+        "end_date": "2023-09-20T05:52:45.911Z",
+        "status": "Inactive",
+        "created_at": "2023-09-19T20:08:31.013Z",
+        "updated_at": "2023-09-20T01:24:07.448Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "91d3bfcb-adf1-49e0-be79-8c41e7bd9b78",
+        "name": "Project C",
+        "description": "This is the description for Project C",
+        "start_date": "2023-09-19T13:57:46.542Z",
+        "end_date": "2023-09-20T09:06:02.344Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T07:40:40.543Z",
+        "updated_at": "2023-09-20T03:16:02.633Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "161c8cc2-59b5-40d2-be7d-f5b6c58881de",
+        "name": "Project D",
+        "description": "This is the description for Project D",
+        "start_date": "2023-09-20T03:14:41.225Z",
+        "end_date": "2023-09-19T16:56:44.952Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T08:32:01.015Z",
+        "updated_at": "2023-09-20T01:08:28.209Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "57e0d929-be9d-41e4-84fb-c27600241866",
+        "name": "Project E",
+        "description": "This is the description for Project E",
+        "start_date": "2023-09-19T23:07:50.564Z",
+        "end_date": "2023-09-19T12:13:23.347Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T12:51:36.387Z",
+        "updated_at": "2023-09-20T04:05:34.365Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "6c9b846a-20a7-4ff8-8d8c-43c050039378",
+        "name": "Agency A",
+        "description": "This is the description for Agency A",
+        "created_at": "2023-09-19T11:56:33.969Z",
+        "updated_at": "2023-09-20T00:48:02.270Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8244562b-1037-417c-8c1e-82c4460eb805",
+        "name": "Agency B",
+        "description": "This is the description for Agency B",
+        "created_at": "2023-09-19T16:07:13.547Z",
+        "updated_at": "2023-09-20T04:33:09.545Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "122b17d5-73da-44b7-b7de-b319e14ebc79",
+        "name": "Agency C",
+        "description": "This is the description for Agency C",
+        "created_at": "2023-09-19T15:58:01.001Z",
+        "updated_at": "2023-09-20T01:16:53.324Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5d9085e9-f98e-4950-b2df-e225e33bbb7b",
+        "name": "Agency D",
+        "description": "This is the description for Agency D",
+        "created_at": "2023-09-20T03:27:08.291Z",
+        "updated_at": "2023-09-19T12:47:28.177Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "efe8b21a-92ab-4f24-accf-c21a6fd76d9c",
+        "name": "Agency E",
+        "description": "This is the description for Agency E",
+        "created_at": "2023-09-20T08:13:22.567Z",
+        "updated_at": "2023-09-19T20:53:18.790Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "b23d0cc5-20ac-41ca-86e2-7a75bef27a5d",
+        "joined_at": "2023-09-20T08:53:24.896Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-19T22:21:15.033Z",
+        "updated_at": "2023-09-20T03:02:13.468Z",
+        "agency_id": "6c9b846a-20a7-4ff8-8d8c-43c050039378",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e624241-4d2f-40ee-8425-bb2f72ed23c4",
+        "joined_at": "2023-09-20T09:00:57.769Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-19T22:39:40.805Z",
+        "updated_at": "2023-09-19T22:51:47.148Z",
+        "agency_id": "6c9b846a-20a7-4ff8-8d8c-43c050039378",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0362e8ea-1c55-4a4f-884c-e76620666d44",
+        "joined_at": "2023-09-20T03:32:39.081Z",
+        "role": "Designer",
+        "status": "On Leave",
+        "created_at": "2023-09-19T14:55:07.926Z",
+        "updated_at": "2023-09-20T05:53:49.714Z",
+        "agency_id": "122b17d5-73da-44b7-b7de-b319e14ebc79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "082a7419-5c0e-463d-b792-f69facd3ac3e",
+        "joined_at": "2023-09-19T14:19:59.829Z",
+        "role": "Marketing Specialist",
+        "status": "Pending Approval",
+        "created_at": "2023-09-20T00:48:20.318Z",
+        "updated_at": "2023-09-19T19:03:24.041Z",
+        "agency_id": "efe8b21a-92ab-4f24-accf-c21a6fd76d9c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c0da110-24e6-4c22-810f-c71a0db40f35",
+        "joined_at": "2023-09-19T10:30:37.117Z",
+        "role": "Sales Representative",
+        "status": "Terminated",
+        "created_at": "2023-09-19T11:29:37.893Z",
+        "updated_at": "2023-09-19T16:52:09.863Z",
+        "agency_id": "122b17d5-73da-44b7-b7de-b319e14ebc79",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "30a099be-7fa0-42dc-825f-88c006a40f0b",
+        "email": "Enoch.Zemlak88@yahoo.com",
+        "firstName": "Jaquan",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9804117",
+        "tenantId": null
+      },
+      {
+        "reference": "b7bc1d5a-4215-4143-949e-335281491d37",
+        "email": "Derek34@yahoo.com",
+        "firstName": "Otis",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/821880",
+        "tenantId": null
+      },
+      {
+        "reference": "a05c5e0b-c7c0-4b02-bb02-2159d96a5e8e",
+        "email": "Aurelio_Gutmann93@yahoo.com",
+        "firstName": "Vincenzo",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35805005",
+        "tenantId": null
+      },
+      {
+        "reference": "6099372a-b1d9-48cc-8e91-497dfa7eb080",
+        "email": "Krista33@hotmail.com",
+        "firstName": "Ethelyn",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27007575",
+        "tenantId": null
+      },
+      {
+        "reference": "256ded56-09c9-4572-8885-f8f1f2f05ae9",
+        "email": "Ayana_Hartmann16@hotmail.com",
+        "firstName": "Joan",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36785148",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "b41ce95b-45e6-4511-baa2-d369f15a1a3a",
+        "subject": "Technical Issue",
+        "description": "I am experiencing difficulties with the website",
+        "status": "Open",
+        "created_at": "2023-09-19T15:57:16.107Z",
+        "updated_at": "2023-09-20T03:19:29.007Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71b37f69-edfa-4ab8-b426-9add04a751a1",
+        "subject": "Payment Inquiry",
+        "description": "I have a question about my recent payment",
+        "status": "In Progress",
+        "created_at": "2023-09-20T08:20:59.135Z",
+        "updated_at": "2023-09-19T12:19:49.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "661c41d2-c84a-4ea0-ad3c-d0189b1a8d65",
+        "subject": "Account Access Problem",
+        "description": "I cannot log in to my account",
+        "status": "Resolved",
+        "created_at": "2023-09-20T08:43:25.798Z",
+        "updated_at": "2023-09-20T02:45:14.245Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e2e9cf2-9055-4202-a84f-cc1fb94adfa4",
+        "subject": "Product Feedback",
+        "description": "I would like to provide feedback on a product",
+        "status": "On Hold",
+        "created_at": "2023-09-19T22:48:39.003Z",
+        "updated_at": "2023-09-20T07:37:55.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ebcec63-4379-4cef-8eec-faef05f81f38",
+        "subject": "Service Request",
+        "description": "I need assistance with a service",
+        "status": "Closed",
+        "created_at": "2023-09-20T03:53:29.689Z",
+        "updated_at": "2023-09-20T04:49:24.940Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "7c2a116c-4f2b-48b3-b14b-51c3e7642180",
+        "name": "Project A",
+        "description": "This project involves developing a new website",
+        "start_date": "2023-09-19T21:11:29.172Z",
+        "end_date": "2023-09-19T22:19:01.750Z",
+        "status": "Planning",
+        "created_at": "2023-09-20T07:08:22.487Z",
+        "updated_at": "2023-09-19T09:50:14.797Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "afede900-3f13-4784-9ae5-6212776c8b5c",
+        "name": "Project B",
+        "description": "This project aims to improve customer satisfaction",
+        "start_date": "2023-09-19T18:00:04.016Z",
+        "end_date": "2023-09-19T21:06:12.494Z",
+        "status": "In Progress",
+        "created_at": "2023-09-19T21:56:48.876Z",
+        "updated_at": "2023-09-20T02:43:28.638Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "b1dc86e1-76b3-4757-b198-cba7eb3d0eb9",
+        "name": "Project C",
+        "description": "This project focuses on optimizing business processes",
+        "start_date": "2023-09-19T12:30:04.539Z",
+        "end_date": "2023-09-19T23:27:49.172Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T18:52:44.305Z",
+        "updated_at": "2023-09-19T15:38:48.412Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "826dbc60-f393-42d6-8a82-8ae027d7edd7",
+        "name": "Project D",
+        "description": "This project involves creating a mobile app",
+        "start_date": "2023-09-20T04:20:47.282Z",
+        "end_date": "2023-09-20T01:01:32.270Z",
+        "status": "Delayed",
+        "created_at": "2023-09-20T01:12:11.544Z",
+        "updated_at": "2023-09-19T18:33:25.160Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "a002355e-3248-4b68-aa11-b719f6638616",
+        "name": "Project E",
+        "description": "This project aims to expand market reach",
+        "start_date": "2023-09-20T07:07:19.622Z",
+        "end_date": "2023-09-19T21:27:32.408Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T12:29:49.281Z",
+        "updated_at": "2023-09-19T15:10:31.537Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "5338bafc-add0-4303-b249-2394d7ca795c",
+        "name": "Marketing Experts",
+        "description": "We help businesses grow through effective marketing strategies",
+        "created_at": "2023-09-19T16:42:42.048Z",
+        "updated_at": "2023-09-19T14:48:22.662Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8dadadb2-d9df-4360-91fd-c5978d48f38e",
+        "name": "Creative Minds",
+        "description": "We offer unique and creative solutions for brand development",
+        "created_at": "2023-09-19T13:47:13.541Z",
+        "updated_at": "2023-09-19T21:39:17.324Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "98a679aa-25ca-4aaa-a8cc-f5206d101904",
+        "name": "Digital Innovators",
+        "description": "Our team specializes in digital transformation and innovation",
+        "created_at": "2023-09-19T22:05:41.018Z",
+        "updated_at": "2023-09-20T04:42:31.812Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7bfb8b76-5eec-43c7-b64e-fa5c154bcfb2",
+        "name": "Strategic Solutions",
+        "description": "We provide strategic consulting services for business success",
+        "created_at": "2023-09-19T16:36:18.839Z",
+        "updated_at": "2023-09-20T04:53:28.094Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "229dff9d-aca5-41d4-a4fb-3a0514bcb82b",
+        "name": "Brand Builders",
+        "description": "We help build strong and memorable brands",
+        "created_at": "2023-09-19T18:13:11.744Z",
+        "updated_at": "2023-09-19T12:51:33.154Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "aa1b58a9-7f6e-43bf-9960-7fd95d646459",
+        "joined_at": "2023-09-20T08:44:21.117Z",
+        "role": "Marketing Specialist",
+        "status": "Active",
+        "created_at": "2023-09-19T20:19:41.509Z",
+        "updated_at": "2023-09-19T22:10:47.125Z",
+        "agency_id": "5338bafc-add0-4303-b249-2394d7ca795c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e8845d9-8d93-4119-b6a9-dd7a73b8ca67",
+        "joined_at": "2023-09-19T19:30:13.149Z",
+        "role": "Creative Director",
+        "status": "Inactive",
+        "created_at": "2023-09-20T07:11:51.680Z",
+        "updated_at": "2023-09-19T22:06:00.270Z",
+        "agency_id": "229dff9d-aca5-41d4-a4fb-3a0514bcb82b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f34a6b3-1fa8-4e1e-ae21-f9cec014a395",
+        "joined_at": "2023-09-20T00:42:43.035Z",
+        "role": "Digital Strategist",
+        "status": "On Leave",
+        "created_at": "2023-09-19T09:44:29.853Z",
+        "updated_at": "2023-09-19T09:46:52.156Z",
+        "agency_id": "7bfb8b76-5eec-43c7-b64e-fa5c154bcfb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "489643b9-74dd-49c2-bd0e-c417ac40ddad",
+        "joined_at": "2023-09-19T15:41:42.484Z",
+        "role": "Business Consultant",
+        "status": "Pending Approval",
+        "created_at": "2023-09-19T12:44:09.666Z",
+        "updated_at": "2023-09-19T19:43:21.142Z",
+        "agency_id": "98a679aa-25ca-4aaa-a8cc-f5206d101904",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3ee4720-cf9a-4108-ba0b-df076fe81c45",
+        "joined_at": "2023-09-20T05:53:18.694Z",
+        "role": "Brand Manager",
+        "status": "Suspended",
+        "created_at": "2023-09-19T17:17:56.152Z",
+        "updated_at": "2023-09-19T21:01:13.461Z",
+        "agency_id": "7bfb8b76-5eec-43c7-b64e-fa5c154bcfb2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8817c02a-1083-4996-af39-300ff88a4371",
+        "email": "Flossie37@yahoo.com",
+        "firstName": "Ruben",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24080974",
+        "tenantId": null
+      },
+      {
+        "reference": "bb781eb9-8841-4c49-baca-def43975b9ee",
+        "email": "Braulio_Blick@gmail.com",
+        "firstName": "Karlie",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1078.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2ad24d4-aa32-4cb0-849c-d197abb50d5c",
+        "email": "Gia.Skiles94@yahoo.com",
+        "firstName": "Tierra",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47563312",
+        "tenantId": null
+      },
+      {
+        "reference": "a1ee2365-8d4b-444c-8c41-5d054788c5e4",
+        "email": "Adan.Grady@hotmail.com",
+        "firstName": "Eleonore",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15552954",
+        "tenantId": null
+      },
+      {
+        "reference": "4ae51d18-8eae-4921-9f3b-d49774c5564d",
+        "email": "Taya86@gmail.com",
+        "firstName": "Isabel",
+        "lastName": "Dare-Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69469204",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "60fb168f-4812-42c4-882c-85043b88750d",
+        "subject": "Issue with login",
+        "description": "I am unable to login to my account",
+        "status": "Open",
+        "created_at": "2023-09-20T04:42:56.265Z",
+        "updated_at": "2023-09-19T18:02:20.302Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9f5b63e-a348-4c11-9095-d36f2b871786",
+        "subject": "Payment not processing",
+        "description": "I am facing issues while making a payment",
+        "status": "In Progress",
+        "created_at": "2023-09-20T01:57:57.450Z",
+        "updated_at": "2023-09-20T09:18:57.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "983c1dd6-0555-42e7-85eb-65198b89f72c",
+        "subject": "Website not loading",
+        "description": "The website is not loading properly",
+        "status": "Resolved",
+        "created_at": "2023-09-19T20:53:44.340Z",
+        "updated_at": "2023-09-19T11:02:38.630Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e3286d2-bd91-4aba-bbb0-909f6e968555",
+        "subject": "Error in checkout process",
+        "description": "I encountered an error during the checkout process",
+        "status": "On Hold",
+        "created_at": "2023-09-19T12:05:55.062Z",
+        "updated_at": "2023-09-20T02:21:50.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e188f36f-6d7a-4aed-8a5d-844e0be9a0fd",
+        "subject": "Product not received",
+        "description": "I have not received my ordered product",
+        "status": "Closed",
+        "created_at": "2023-09-19T18:43:02.519Z",
+        "updated_at": "2023-09-20T02:55:38.759Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "43b0f2af-8c22-4818-b96a-7b1e47b7b494",
+        "name": "Project A",
+        "description": "This is the description for Project A",
+        "start_date": "2023-09-19T14:25:24.782Z",
+        "end_date": "2023-09-20T09:37:09.197Z",
+        "status": "Active",
+        "created_at": "2023-09-19T17:29:22.149Z",
+        "updated_at": "2023-09-20T04:22:00.088Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "0bbd2c30-b702-4bce-a33e-76115f92ffa7",
+        "name": "Project B",
+        "description": "This is the description for Project B",
+        "start_date": "2023-09-19T11:37:51.807Z",
+        "end_date": "2023-09-19T12:02:24.535Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T19:07:13.083Z",
+        "updated_at": "2023-09-20T02:39:45.954Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "250bc153-19f5-457a-bd7a-49ad9d4dc60b",
+        "name": "Project C",
+        "description": "This is the description for Project C",
+        "start_date": "2023-09-19T16:08:44.382Z",
+        "end_date": "2023-09-19T20:10:55.201Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T13:56:11.867Z",
+        "updated_at": "2023-09-20T03:11:41.865Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "c0e4d219-06e1-4f11-9694-3fc9e95b9f69",
+        "name": "Project D",
+        "description": "This is the description for Project D",
+        "start_date": "2023-09-20T06:35:51.424Z",
+        "end_date": "2023-09-19T18:07:18.306Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T09:15:28.079Z",
+        "updated_at": "2023-09-20T02:35:57.566Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "cf539c8c-f305-4214-8656-c8b77a96d74f",
+        "name": "Project E",
+        "description": "This is the description for Project E",
+        "start_date": "2023-09-19T14:02:57.743Z",
+        "end_date": "2023-09-19T17:24:42.454Z",
+        "status": "Pending",
+        "created_at": "2023-09-19T10:02:54.796Z",
+        "updated_at": "2023-09-19T10:52:49.592Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "298f468a-390a-4d01-b2d2-e01cb1772bd9",
+        "name": "Agency A",
+        "description": "This is the description for Agency A",
+        "created_at": "2023-09-19T15:36:40.211Z",
+        "updated_at": "2023-09-20T03:05:43.427Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "bd1f20cf-4e9d-499a-a555-bebef917cc77",
+        "name": "Agency B",
+        "description": "This is the description for Agency B",
+        "created_at": "2023-09-20T09:21:21.668Z",
+        "updated_at": "2023-09-19T10:06:55.332Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "171a1143-7400-4ebb-b650-415cf750ed20",
+        "name": "Agency C",
+        "description": "This is the description for Agency C",
+        "created_at": "2023-09-19T18:12:50.208Z",
+        "updated_at": "2023-09-20T03:14:12.827Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "17eb17ad-40b7-493e-94a8-3685171ffc5f",
+        "name": "Agency D",
+        "description": "This is the description for Agency D",
+        "created_at": "2023-09-19T14:53:23.780Z",
+        "updated_at": "2023-09-20T03:20:48.307Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dcac69e7-7833-4527-803b-7e1cbcee4684",
+        "name": "Agency E",
+        "description": "This is the description for Agency E",
+        "created_at": "2023-09-19T20:19:26.685Z",
+        "updated_at": "2023-09-20T06:28:23.331Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "85dbd862-21a1-4fb0-889c-805f144a70bb",
+        "joined_at": "2023-09-20T03:30:23.434Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T07:09:41.820Z",
+        "updated_at": "2023-09-19T15:01:55.364Z",
+        "agency_id": "bd1f20cf-4e9d-499a-a555-bebef917cc77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40c23fa6-7d4f-4de9-bf71-d563aab92fda",
+        "joined_at": "2023-09-20T00:54:10.435Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-20T05:52:07.966Z",
+        "updated_at": "2023-09-20T05:06:22.062Z",
+        "agency_id": "bd1f20cf-4e9d-499a-a555-bebef917cc77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bf422f4-2e25-461d-9fc0-408af6580f01",
+        "joined_at": "2023-09-19T12:27:10.445Z",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-09-20T09:19:49.709Z",
+        "updated_at": "2023-09-20T08:47:58.363Z",
+        "agency_id": "298f468a-390a-4d01-b2d2-e01cb1772bd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bdc16d7-d3ce-4de7-93ba-948c7ca5b672",
+        "joined_at": "2023-09-20T00:14:06.919Z",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-09-19T23:31:41.907Z",
+        "updated_at": "2023-09-20T03:26:16.161Z",
+        "agency_id": "298f468a-390a-4d01-b2d2-e01cb1772bd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beb38826-d22e-4809-a7b0-a4631e9f6a2e",
+        "joined_at": "2023-09-19T16:13:12.325Z",
+        "role": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-09-19T21:58:18.622Z",
+        "updated_at": "2023-09-20T04:26:43.499Z",
+        "agency_id": "17eb17ad-40b7-493e-94a8-3685171ffc5f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9412cf7c-b167-4ec4-b900-259a10038685",
+        "email": "Javier86@hotmail.com",
+        "firstName": "Velda",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53961459",
+        "tenantId": null
+      },
+      {
+        "reference": "5296efd5-c747-49ff-a5e6-185e12c7d24f",
+        "email": "Vince.Windler34@hotmail.com",
+        "firstName": "Carmine",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6036937",
+        "tenantId": null
+      },
+      {
+        "reference": "256a33cc-8148-4adb-9503-3bd13f362dd0",
+        "email": "Alanis_Bogan3@gmail.com",
+        "firstName": "Immanuel",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45381358",
+        "tenantId": null
+      },
+      {
+        "reference": "01fbf18a-ee44-48b7-8b83-fa974bcba25b",
+        "email": "Asa.Dare@hotmail.com",
+        "firstName": "Orpha",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63543545",
+        "tenantId": null
+      },
+      {
+        "reference": "0a7b3797-1c57-45bb-aa73-c1ac19aca365",
+        "email": "Barry34@hotmail.com",
+        "firstName": "Orrin",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/623.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "d08a63f3-655c-4c13-a8b2-f4f21b6e6d90",
+        "subject": "Payment Issue",
+        "description": "I am facing issues with my payment",
+        "status": "Open",
+        "created_at": "2023-09-19T15:02:08.028Z",
+        "updated_at": "2023-09-19T20:43:39.241Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f068c300-bdad-49bd-91aa-0844706a52eb",
+        "subject": "Bug Report",
+        "description": "I found a bug in the system",
+        "status": "In Progress",
+        "created_at": "2023-09-19T15:29:46.495Z",
+        "updated_at": "2023-09-20T01:51:13.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "401f150a-f8df-40b8-b84b-74e8dff5f31a",
+        "subject": "Feature Request",
+        "description": "I have a suggestion for a new feature",
+        "status": "Resolved",
+        "created_at": "2023-09-20T03:38:20.481Z",
+        "updated_at": "2023-09-20T05:17:39.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bda739e8-c188-46b4-a545-1c92ff20b97c",
+        "subject": "Account Access Problem",
+        "description": "I am unable to access my account",
+        "status": "On Hold",
+        "created_at": "2023-09-20T08:18:18.328Z",
+        "updated_at": "2023-09-20T02:29:57.101Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12810e14-d50b-480f-a965-c59afc061227",
+        "subject": "Website Error",
+        "description": "I encountered an error while using the website",
+        "status": "Closed",
+        "created_at": "2023-09-19T19:32:08.655Z",
+        "updated_at": "2023-09-19T18:29:19.797Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "1af13795-ca30-4361-9ef4-ca18822cdb84",
+        "name": "Project A",
+        "description": "This is the description for Project A",
+        "start_date": "2023-09-19T20:14:06.503Z",
+        "end_date": "2023-09-19T20:06:20.464Z",
+        "status": "Active",
+        "created_at": "2023-09-20T01:38:32.645Z",
+        "updated_at": "2023-09-19T18:06:04.872Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "cee2b04a-5e6b-4196-af19-d79c846a1760",
+        "name": "Project B",
+        "description": "This is the description for Project B",
+        "start_date": "2023-09-19T12:07:32.252Z",
+        "end_date": "2023-09-19T15:10:06.639Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T17:16:07.934Z",
+        "updated_at": "2023-09-19T13:49:43.470Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "f1c76539-5142-4db7-b942-5199eab4e427",
+        "name": "Project C",
+        "description": "This is the description for Project C",
+        "start_date": "2023-09-19T20:30:36.873Z",
+        "end_date": "2023-09-19T14:48:53.284Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T19:27:39.661Z",
+        "updated_at": "2023-09-20T04:56:44.788Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "05e89276-7363-4a9d-94d6-54ddf492fec8",
+        "name": "Project D",
+        "description": "This is the description for Project D",
+        "start_date": "2023-09-20T06:01:44.365Z",
+        "end_date": "2023-09-19T17:02:28.747Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T06:31:47.706Z",
+        "updated_at": "2023-09-20T01:15:08.190Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "9d946b0b-ef4f-41d2-ab5d-3f363c88c281",
+        "name": "Project E",
+        "description": "This is the description for Project E",
+        "start_date": "2023-09-19T17:51:07.191Z",
+        "end_date": "2023-09-20T04:16:11.016Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T15:10:37.943Z",
+        "updated_at": "2023-09-19T16:51:14.442Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "94ebab8f-6973-4f24-a295-fa2458ad04e2",
+        "name": "Agency A",
+        "description": "This is a description of Agency A",
+        "created_at": "2023-09-19T22:01:32.124Z",
+        "updated_at": "2023-09-19T16:31:46.417Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8930b4f9-9636-497a-8c8c-e1d79c1c45e6",
+        "name": "Agency B",
+        "description": "This is a description of Agency B",
+        "created_at": "2023-09-19T19:38:22.045Z",
+        "updated_at": "2023-09-20T01:06:09.014Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "89de5f5f-a490-4ec0-b5f0-0af0aac821e9",
+        "name": "Agency C",
+        "description": "This is a description of Agency C",
+        "created_at": "2023-09-19T21:07:27.162Z",
+        "updated_at": "2023-09-19T23:24:48.484Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1990f965-a114-4794-af06-04815955157c",
+        "name": "Agency D",
+        "description": "This is a description of Agency D",
+        "created_at": "2023-09-19T21:26:59.067Z",
+        "updated_at": "2023-09-19T11:06:33.340Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2e97caca-3ca6-41ca-bfcc-60df35d487b6",
+        "name": "Agency E",
+        "description": "This is a description of Agency E",
+        "created_at": "2023-09-19T13:35:59.741Z",
+        "updated_at": "2023-09-19T17:35:36.728Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "18dc716d-5e15-49c7-8dd0-c2c4f2847a12",
+        "joined_at": "2023-09-19T15:34:42.629Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-19T11:57:02.888Z",
+        "updated_at": "2023-09-19T15:47:48.304Z",
+        "agency_id": "8930b4f9-9636-497a-8c8c-e1d79c1c45e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa863f4b-4a47-4169-a9fe-5f718b2b229b",
+        "joined_at": "2023-09-20T00:12:24.220Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-19T12:01:51.759Z",
+        "updated_at": "2023-09-20T07:49:21.836Z",
+        "agency_id": "94ebab8f-6973-4f24-a295-fa2458ad04e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bb653d7-fd66-4662-aa3f-5ded297db316",
+        "joined_at": "2023-09-19T21:45:04.263Z",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-09-20T08:23:11.469Z",
+        "updated_at": "2023-09-19T21:38:03.375Z",
+        "agency_id": "1990f965-a114-4794-af06-04815955157c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00ae4251-e4d0-409e-8868-d002720cc2df",
+        "joined_at": "2023-09-20T09:38:05.583Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-19T13:37:11.829Z",
+        "updated_at": "2023-09-20T02:18:55.770Z",
+        "agency_id": "8930b4f9-9636-497a-8c8c-e1d79c1c45e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ff28aad-ddce-4da1-a8d6-fdd3691a77e5",
+        "joined_at": "2023-09-20T00:24:02.413Z",
+        "role": "Tester",
+        "status": "On Leave",
+        "created_at": "2023-09-20T09:24:51.706Z",
+        "updated_at": "2023-09-20T03:39:44.421Z",
+        "agency_id": "94ebab8f-6973-4f24-a295-fa2458ad04e2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5e9f7650-5d26-41f2-8478-debe2699d15a",
+        "email": "Vita47@yahoo.com",
+        "firstName": "Wanda",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78802077",
+        "tenantId": null
+      },
+      {
+        "reference": "a72f2660-8399-492d-90ea-d2b89ccab9a1",
+        "email": "Jordyn15@hotmail.com",
+        "firstName": "Leta",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/574.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53409660-43de-4c51-92ad-48713174003f",
+        "email": "Ike10@yahoo.com",
+        "firstName": "Willie",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e39145cc-4ed5-4306-9cb7-f9a5b542a17e",
+        "email": "Loyce_Trantow@yahoo.com",
+        "firstName": "Pearline",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39692672",
+        "tenantId": null
+      },
+      {
+        "reference": "8cececff-9d7e-4105-a324-7e8f86f49eff",
+        "email": "Emilie_Purdy@yahoo.com",
+        "firstName": "Jaycee",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/667.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "e6a5e7ef-6dd7-4175-842a-c1484d28255f",
+        "subject": "Technical Issue",
+        "description": "Experiencing difficulties with the website",
+        "status": "Open",
+        "created_at": "2023-09-19T14:38:02.354Z",
+        "updated_at": "2023-09-20T04:45:19.320Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82b5b6cc-5210-4c93-bd08-9cc2855e5228",
+        "subject": "Payment Inquiry",
+        "description": "Question regarding a recent payment",
+        "status": "Closed",
+        "created_at": "2023-09-20T08:01:29.413Z",
+        "updated_at": "2023-09-19T12:30:46.771Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf988629-33c2-4a82-ac97-917657ef0e66",
+        "subject": "Account Access Problem",
+        "description": "Unable to login to my account",
+        "status": "In Progress",
+        "created_at": "2023-09-19T16:29:57.759Z",
+        "updated_at": "2023-09-20T04:48:58.104Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3b0ed91-4919-4be6-9e13-a3253ff2a192",
+        "subject": "Product Feedback",
+        "description": "Suggestion for improving the product",
+        "status": "On Hold",
+        "created_at": "2023-09-20T04:08:45.827Z",
+        "updated_at": "2023-09-20T01:53:34.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9816a57-cac6-43c8-8594-d3dceffad163",
+        "subject": "Service Request",
+        "description": "Request for assistance with a specific service",
+        "status": "Resolved",
+        "created_at": "2023-09-19T15:56:09.588Z",
+        "updated_at": "2023-09-20T02:21:11.859Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "1e281afd-58db-4ee2-ac6f-b929c5703f9d",
+        "name": "Project A",
+        "description": "A new project for the marketing team",
+        "start_date": "2023-09-19T09:42:31.414Z",
+        "end_date": "2023-09-19T20:58:55.315Z",
+        "status": "Planning",
+        "created_at": "2023-09-19T09:44:52.699Z",
+        "updated_at": "2023-09-20T02:15:35.988Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "83f9762c-1574-45a6-b847-a82f477df9e6",
+        "name": "Project B",
+        "description": "Developing a mobile app for customer engagement",
+        "start_date": "2023-09-20T06:01:39.499Z",
+        "end_date": "2023-09-19T19:16:04.005Z",
+        "status": "In Progress",
+        "created_at": "2023-09-19T17:52:41.368Z",
+        "updated_at": "2023-09-19T20:07:25.809Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "6766cba2-68a2-402c-9f18-dfe8d58c47c2",
+        "name": "Project C",
+        "description": "Redesigning the company website",
+        "start_date": "2023-09-20T00:03:29.537Z",
+        "end_date": "2023-09-20T07:14:53.423Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T08:23:53.310Z",
+        "updated_at": "2023-09-19T16:51:01.121Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "a00a058e-1580-48f7-a63f-14e003a84787",
+        "name": "Project D",
+        "description": "Implementing a CRM system",
+        "start_date": "2023-09-20T01:00:02.160Z",
+        "end_date": "2023-09-19T14:52:28.742Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T08:42:35.427Z",
+        "updated_at": "2023-09-20T09:09:49.397Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "61577e85-498f-4a76-85b2-94049611c046",
+        "name": "Project E",
+        "description": "Launching a new product line",
+        "start_date": "2023-09-19T20:38:59.317Z",
+        "end_date": "2023-09-19T13:03:04.128Z",
+        "status": "Delayed",
+        "created_at": "2023-09-19T18:57:32.676Z",
+        "updated_at": "2023-09-19T11:07:23.280Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "bea9eff0-e806-4adf-ad89-5d485c830b72",
+        "name": "Marketing Solutions",
+        "description": "A full-service marketing agency offering strategic solutions",
+        "created_at": "2023-09-19T22:15:49.834Z",
+        "updated_at": "2023-09-20T03:42:32.213Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6c315545-cab6-49ca-a2db-858c326eaf19",
+        "name": "Creative Minds",
+        "description": "A creative agency specializing in design and branding",
+        "created_at": "2023-09-19T13:40:53.481Z",
+        "updated_at": "2023-09-20T08:27:36.683Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2c3d2e46-7791-4ccf-977b-1f41180bb017",
+        "name": "Digital Innovators",
+        "description": "A technology-driven agency revolutionizing digital experiences",
+        "created_at": "2023-09-20T06:15:04.787Z",
+        "updated_at": "2023-09-19T18:34:42.462Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2ac0c445-56ed-4091-9daf-6cabf46c5698",
+        "name": "Brand Builders",
+        "description": "A branding agency focused on building strong brand identities",
+        "created_at": "2023-09-20T00:13:29.864Z",
+        "updated_at": "2023-09-20T08:28:02.350Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6cf11ad7-d59b-4d77-800e-0b425a946b5c",
+        "name": "Media Experts",
+        "description": "A media agency delivering targeted advertising campaigns",
+        "created_at": "2023-09-20T03:38:02.138Z",
+        "updated_at": "2023-09-19T11:26:15.801Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "ce7a9354-4e29-412d-9ef7-bfef4283298b",
+        "joined_at": "2023-09-19T23:02:18.777Z",
+        "role": "Marketing Specialist",
+        "status": "Active",
+        "created_at": "2023-09-19T18:13:14.484Z",
+        "updated_at": "2023-09-20T00:30:42.815Z",
+        "agency_id": "2c3d2e46-7791-4ccf-977b-1f41180bb017",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4abd58eb-8c1b-422d-a7f8-1e4b25d12d03",
+        "joined_at": "2023-09-20T06:43:56.250Z",
+        "role": "Graphic Designer",
+        "status": "Inactive",
+        "created_at": "2023-09-19T12:52:26.994Z",
+        "updated_at": "2023-09-20T07:17:34.491Z",
+        "agency_id": "6c315545-cab6-49ca-a2db-858c326eaf19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a653076-df6d-438d-8de4-8866f6f81c41",
+        "joined_at": "2023-09-19T13:00:21.249Z",
+        "role": "Web Developer",
+        "status": "On Leave",
+        "created_at": "2023-09-20T08:31:14.147Z",
+        "updated_at": "2023-09-19T09:41:39.195Z",
+        "agency_id": "6c315545-cab6-49ca-a2db-858c326eaf19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c026426d-117a-4b2d-b9a7-2e3dcd0745f6",
+        "joined_at": "2023-09-20T02:55:45.619Z",
+        "role": "Account Manager",
+        "status": "Pending Approval",
+        "created_at": "2023-09-20T07:52:41.076Z",
+        "updated_at": "2023-09-19T13:38:34.188Z",
+        "agency_id": "2ac0c445-56ed-4091-9daf-6cabf46c5698",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d89ed80a-d40e-41e3-8f4b-4d8b3d85dd09",
+        "joined_at": "2023-09-20T03:52:27.122Z",
+        "role": "Social Media Strategist",
+        "status": "Suspended",
+        "created_at": "2023-09-20T02:05:49.933Z",
+        "updated_at": "2023-09-19T21:09:04.186Z",
+        "agency_id": "bea9eff0-e806-4adf-ad89-5d485c830b72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "38480315-6255-4078-8dce-6bb7437704b1",
+        "email": "Thomas.Sawayn@gmail.com",
+        "firstName": "Angus",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/881.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fa8d36e6-aca1-4cb2-8427-61b22b4f5be3",
+        "email": "Asha_Stroman@gmail.com",
+        "firstName": "Lottie",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97242290",
+        "tenantId": null
+      },
+      {
+        "reference": "0da57ed4-9b3d-407c-9278-f835d12f381d",
+        "email": "Veronica.OKeefe20@yahoo.com",
+        "firstName": "Claudia",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1041.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e5217ad-268c-403c-b1a7-42e98a5c8a8f",
+        "email": "Adrianna.Tremblay@hotmail.com",
+        "firstName": "Nelle",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/226.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bafd3e63-b595-4f23-b917-cc4dabc244d6",
+        "email": "Milan_Rutherford98@yahoo.com",
+        "firstName": "Lavon",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/300.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "support_ticket": [
+      {
+        "id": "f31eba8b-08fb-416f-87a5-f0594f8ad265",
+        "subject": "Technical issue",
+        "description": "Experiencing difficulties with the login process",
+        "status": "Open",
+        "created_at": "2023-09-19T14:22:00.841Z",
+        "updated_at": "2023-09-20T00:34:16.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9fced92-26b0-4ee2-a859-5278204efc35",
+        "subject": "Payment inquiry",
+        "description": "Need assistance with billing",
+        "status": "In progress",
+        "created_at": "2023-09-20T07:30:04.015Z",
+        "updated_at": "2023-09-20T09:19:07.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "655875b3-4bdb-440f-a5e9-68969545d84d",
+        "subject": "Feature request",
+        "description": "Suggesting a new feature for the platform",
+        "status": "On hold",
+        "created_at": "2023-09-19T12:18:07.171Z",
+        "updated_at": "2023-09-20T07:00:29.101Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b438b419-100d-42fb-9e62-d8c0b8d6a5ff",
+        "subject": "Bug report",
+        "description": "Found a bug in the system",
+        "status": "Resolved",
+        "created_at": "2023-09-19T12:52:26.735Z",
+        "updated_at": "2023-09-20T06:52:33.649Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6564a289-6c65-4479-8102-17afdc9465ba",
+        "subject": "Account problem",
+        "description": "Unable to access my account",
+        "status": "Closed",
+        "created_at": "2023-09-19T15:29:05.414Z",
+        "updated_at": "2023-09-19T11:18:06.647Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "4c36ae18-fef4-4129-8540-5efe5d8a27a6",
+        "name": "Project A",
+        "description": "Creating a new website for a client",
+        "start_date": "2023-09-20T02:41:41.171Z",
+        "end_date": "2023-09-19T12:08:37.796Z",
+        "status": "Planning",
+        "created_at": "2023-09-19T13:07:27.689Z",
+        "updated_at": "2023-09-20T04:24:03.362Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "7b0222b5-eb64-4134-90dc-70eadb2df197",
+        "name": "Project B",
+        "description": "Developing a mobile application",
+        "start_date": "2023-09-19T09:48:19.856Z",
+        "end_date": "2023-09-19T12:09:52.723Z",
+        "status": "In progress",
+        "created_at": "2023-09-19T18:42:21.908Z",
+        "updated_at": "2023-09-20T01:37:54.803Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "d0f5636d-4304-456e-a8e3-308db3fd927f",
+        "name": "Project C",
+        "description": "Implementing a CRM system",
+        "start_date": "2023-09-19T17:45:32.561Z",
+        "end_date": "2023-09-20T04:37:18.817Z",
+        "status": "On hold",
+        "created_at": "2023-09-20T08:44:30.974Z",
+        "updated_at": "2023-09-20T09:08:09.187Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "61b58820-9897-43a0-aeb5-c41b21e6368e",
+        "name": "Project D",
+        "description": "Designing a logo for a startup",
+        "start_date": "2023-09-20T02:31:40.695Z",
+        "end_date": "2023-09-20T05:18:37.055Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T02:47:49.809Z",
+        "updated_at": "2023-09-20T03:09:45.931Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "4189b072-14af-4c95-a17b-34814be073d7",
+        "name": "Project E",
+        "description": "Building an e-commerce platform",
+        "start_date": "2023-09-20T06:50:47.242Z",
+        "end_date": "2023-09-19T12:24:46.660Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T04:53:18.075Z",
+        "updated_at": "2023-09-19T13:24:30.894Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "agency": [
+      {
+        "id": "289beadd-eb8c-4ebf-b98d-e7a41e16b36d",
+        "name": "Marketing Pro",
+        "description": "A full-service marketing agency delivering impactful campaigns",
+        "created_at": "2023-09-19T16:53:53.999Z",
+        "updated_at": "2023-09-19T20:41:44.599Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8624f0bd-b3cf-4280-87e9-58a13e9f5609",
+        "name": "Creative Minds",
+        "description": "A creative agency pushing boundaries with unique designs",
+        "created_at": "2023-09-19T20:19:53.382Z",
+        "updated_at": "2023-09-19T17:04:28.991Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5403e167-09f1-41b2-9062-07b8c92e5fc9",
+        "name": "Digital Solutions",
+        "description": "A technology company providing digital solutions for businesses",
+        "created_at": "2023-09-20T07:52:18.793Z",
+        "updated_at": "2023-09-20T09:36:01.283Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1e0033a6-20dd-4c06-ac2a-eae46acdfcf4",
+        "name": "Innovative Ideas",
+        "description": "An innovation hub driving transformation through cutting-edge ideas",
+        "created_at": "2023-09-19T21:16:44.165Z",
+        "updated_at": "2023-09-19T19:22:52.915Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "06ccf5c8-d00b-4e38-bcb9-b6553bc5b336",
+        "name": "Tech Experts",
+        "description": "A team of experts specializing in technology consulting",
+        "created_at": "2023-09-19T19:42:37.791Z",
+        "updated_at": "2023-09-19T12:48:14.174Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "b72e8bd3-aeda-4e2b-9ed9-9ab3d6fb3003",
+        "joined_at": "2023-09-20T01:18:18.021Z",
+        "role": "Project Manager",
+        "status": "Active",
+        "created_at": "2023-09-19T20:36:26.595Z",
+        "updated_at": "2023-09-20T01:43:58.803Z",
+        "agency_id": "5403e167-09f1-41b2-9062-07b8c92e5fc9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aba9c583-a5d0-4860-8f16-f961885051ac",
+        "joined_at": "2023-09-19T22:23:34.086Z",
+        "role": "Graphic Designer",
+        "status": "On leave",
+        "created_at": "2023-09-19T16:36:09.635Z",
+        "updated_at": "2023-09-19T23:30:38.203Z",
+        "agency_id": "1e0033a6-20dd-4c06-ac2a-eae46acdfcf4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6efb0c6b-a70e-4188-bd8b-00dbe333d0a0",
+        "joined_at": "2023-09-19T15:13:21.616Z",
+        "role": "Web Developer",
+        "status": "Pending approval",
+        "created_at": "2023-09-20T00:59:18.038Z",
+        "updated_at": "2023-09-19T10:55:50.935Z",
+        "agency_id": "289beadd-eb8c-4ebf-b98d-e7a41e16b36d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8700d044-add5-49dc-83f7-d5f7966f69b6",
+        "joined_at": "2023-09-19T14:37:40.857Z",
+        "role": "Marketing Specialist",
+        "status": "Inactive",
+        "created_at": "2023-09-20T02:49:40.561Z",
+        "updated_at": "2023-09-19T18:25:36.739Z",
+        "agency_id": "06ccf5c8-d00b-4e38-bcb9-b6553bc5b336",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "725a74eb-2900-4b82-afbc-f2d8974ac0dc",
+        "joined_at": "2023-09-20T07:24:53.666Z",
+        "role": "Data Analyst",
+        "status": "Terminated",
+        "created_at": "2023-09-20T07:14:24.593Z",
+        "updated_at": "2023-09-19T22:31:26.482Z",
+        "agency_id": "289beadd-eb8c-4ebf-b98d-e7a41e16b36d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1032d0ac-8180-4d3e-8e44-e15a0d959588",
+        "email": "Misty.Walker77@hotmail.com",
+        "firstName": "Verner",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/18.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "437a98e0-5072-44c4-96f9-4b9f804cb9d9",
+        "email": "Turner42@yahoo.com",
+        "firstName": "Kylee",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f47e4d12-20e8-4e56-9029-3c71d1e14918",
+        "email": "Mercedes.Mohr83@hotmail.com",
+        "firstName": "Montana",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32540287",
+        "tenantId": null
+      },
+      {
+        "reference": "e3a94ab4-25ef-4a0a-874a-8b6a544a2fff",
+        "email": "Sincere.Farrell@hotmail.com",
+        "firstName": "Maryjane",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/399.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51f387cd-6da0-46af-98c9-45ffcb954ddf",
+        "email": "Derrick.Hamill15@hotmail.com",
+        "firstName": "Jedidiah",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81250283",
+        "tenantId": null
+      }
+    ]
+  }
+]
